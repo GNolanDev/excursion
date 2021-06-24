@@ -7,7 +7,8 @@ A project set by Codecademy as part of the full stack path. Create a simple webp
 ## Requirements
 Hosted on [GitHub Pages](https://gnolandev.github.io/excursion/), but will run on any modern browser by downloading all files to the same directory and opening _index.html_.
 ## Other
-Note: good learning point - embedded \<video\>s will not autoplay unless you also set the 'muted' attribute. Good to know!
+Note: good learning point - embedded \<video\>s will not autoplay unless you also set the 'muted' attribute. Good to know!    
+
 After meeting(?) the design brief, I realised it looked a bit awful in smaller screen sizes, so took the chance to add a bit of responsive code. The fixed font-sizes in pixels are switched to descriptive sizes (larg/x-large etc), image is swapped out, and maximum screen widths are applied once the screen width drops below 1000px.
 Thanks to [Resize Pixel](https://www.resizepixel.com) for the online image resizing utility - really easy to use.
 ## Screenshots
