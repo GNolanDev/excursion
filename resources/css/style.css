@@ -30,6 +30,10 @@ img[src*="phone"] {
   margin-top: 20px;
 }
 
+#img-small {
+  display: none;
+}
+
 footer {
   padding: 4px;
   text-align: right;
@@ -39,3 +43,30 @@ video {
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: xx-large;
+  }
+  h2 {
+    font-size: x-large;
+  }
+  p {
+    font-size: small;
+  }
+  a {
+    font-size: smaller;
+  }
+  #img-large {
+    display: none;
+  }
+  #img-small {
+    display: inline-block;
+    max-width: 90%;
+  }
+  img[src*="phone"] {
+    max-width: 10%;
+  }
+  video {
+    max-width: 90%;
+  }
+}
